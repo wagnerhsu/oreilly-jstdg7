@@ -1,3 +1,4 @@
+// Example 9-3
 class Range {
     constructor(from, to) {
         // Store the start and end points (state) of this new range object.

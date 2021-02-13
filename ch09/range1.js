@@ -1,3 +1,4 @@
+// Example 9-1
 // This is a factory function that returns a new range object.
 function range(from, to) {
     // Use Object.create() to create an object that inherits from the
@@ -30,3 +31,8 @@ range.methods = {
     // Return a string representation of the range
     toString() { return "(" + this.from + "..." + this.to + ")"; }
 };
+
+let r = range(1,3);
+console.log(r.includes(2));
+console.log(toString());
+console.log([...r]);

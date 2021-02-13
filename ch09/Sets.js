@@ -1,3 +1,4 @@
+// Example 9-8
 /**
  * The AbstractSet class defines a single abstract method, has().
  */
